@@ -9,7 +9,7 @@ pragma solidity ^0.8.20;
 
 contract Project {
     address public owner;
-    string public projectName = "Power of Blockchain";
+    string public p rojectName = "Power of Blockchain";
 
     // A mapping to store user balances (simulating a mini ledger)
     mapping(address => uint256) private balances;
